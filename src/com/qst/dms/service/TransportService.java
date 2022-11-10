@@ -1,5 +1,6 @@
 package com.qst.dms.service;
 
+import com.qst.dms.entity.MatchedTransport;
 import com.qst.dms.entity.Transport;
 
 import java.util.Date;
@@ -47,6 +48,15 @@ public class TransportService {
     public void showTransport(Transport... transports){
         for (Transport e :
                 transports) {
+            if (e != null) {
+                System.out.println(e.toString());
+            }
+            }
+    }
+//    匹配物流信息输出
+    public void showMatchTransport(MatchedTransport... matchedTransports){
+        for (MatchedTransport e :
+                matchedTransports) {
             if (e != null) {
                 System.out.println(e.toString());
             }

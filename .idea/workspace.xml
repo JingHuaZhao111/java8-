@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="java课程贯穿任务到第四章">
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/EntityDataDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/MatchedLogRec.java" afterDir="false" />
+    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="第五章部分">
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/MatchedTransport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qst/dms/service/TransportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qst/dms/service/TransportService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +146,7 @@
       <workItem from="1667650378982" duration="30000" />
       <workItem from="1667651087847" duration="1443000" />
       <workItem from="1668003228312" duration="3101000" />
-      <workItem from="1668076858699" duration="6813000" />
+      <workItem from="1668076858699" duration="7952000" />
     </task>
     <task id="LOCAL-00001" summary="java课程贯穿任务到第四章">
       <created>1668078165465</created>
@@ -164,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668078441569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第五章部分">
+      <created>1668083827798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668083827798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java课程贯穿任务到第四章" />
-    <option name="LAST_COMMIT_MESSAGE" value="java课程贯穿任务到第四章" />
+    <MESSAGE value="第五章部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="第五章部分" />
   </component>
 </project>

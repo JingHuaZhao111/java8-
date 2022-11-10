@@ -26,7 +26,6 @@ public class LogRecService {
         String address=scanner.next();
 //        数据状态是采集
         int type=LogRec.GATHER;
-
 //        提示用户输入登录用户名
         System.out.println("请输入 登录用户名: ");
 //        接受键盘输入的字符串信息
