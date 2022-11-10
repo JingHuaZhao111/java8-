@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="第五章所有" />
+    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="第五章所有">
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataShow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/LogRecDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/MenuDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/DataBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/LogRec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/LogRecService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/TransportService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -142,7 +154,7 @@
       <workItem from="1667651087847" duration="1443000" />
       <workItem from="1668003228312" duration="3101000" />
       <workItem from="1668076858699" duration="7952000" />
-      <workItem from="1668085037295" duration="311000" />
+      <workItem from="1668085037295" duration="696000" />
     </task>
     <task id="LOCAL-00001" summary="java课程贯穿任务到第四章">
       <created>1668078165465</created>
@@ -172,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668085061349</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第五章所有">
+      <created>1668085703128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668085703128</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
