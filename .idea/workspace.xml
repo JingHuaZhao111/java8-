@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="" />
+    <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="java课程贯穿任务到第四章">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q_DMS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataInput.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataShow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/LogRecDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/MenuDriver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/DataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/LogRec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/LogRecService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/TransportService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/DataInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/DataShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/LogRecDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/MenuDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/LogRec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/TransportService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -26,6 +57,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="2Gykr40Cy1Pq9FkFS2d48UKkyrP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -34,6 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -135,11 +168,34 @@
       <workItem from="1667650378982" duration="30000" />
       <workItem from="1667651087847" duration="1443000" />
       <workItem from="1668003228312" duration="3101000" />
-      <workItem from="1668076858699" duration="1096000" />
+      <workItem from="1668076858699" duration="1447000" />
     </task>
+    <task id="LOCAL-00001" summary="java课程贯穿任务到第四章">
+      <created>1668078165465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668078165465</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java课程贯穿任务到第四章" />
+    <option name="LAST_COMMIT_MESSAGE" value="java课程贯穿任务到第四章" />
   </component>
 </project>
