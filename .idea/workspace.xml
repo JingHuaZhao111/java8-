@@ -5,33 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="268d34e9-016b-4f03-8f9b-19bac305cfc2" name="变更" comment="java课程贯穿任务到第四章">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Q_DMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataInput.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/DataShow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/LogRecDemo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/MenuDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/dos/Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/DataBase.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/LogRec.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/LogRecService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/service/TransportService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/DataInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/DataShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/LogRecDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/MenuDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/LogRec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/TransportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/dos/EntityDataDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qst/dms/service/MatchedLogRec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Q_DMS/com/qst/dms/entity/Transport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qst/dms/entity/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qst/dms/service/LogRecService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,13 +50,14 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30235603" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="应用程序.LogRecDemo">
+  <component name="RunManager" selected="应用程序.EntityDataDemo">
     <configuration name="DataInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qst.dms.dos.DataInput" />
       <module name="Q_DMS" />
@@ -104,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogRecDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qst.dms.dos.LogRecDemo" />
+    <configuration name="EntityDataDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qst.dms.dos.EntityDataDemo" />
       <module name="Q_DMS" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qst.dms.dos.MenuDriver" />
+    <configuration name="LogRecDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qst.dms.dos.LogRecDemo" />
       <module name="Q_DMS" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.EntityDataDemo" />
         <item itemvalue="应用程序.LogRecDemo" />
         <item itemvalue="应用程序.Utils" />
         <item itemvalue="应用程序.DataShow" />
         <item itemvalue="应用程序.DataInput" />
-        <item itemvalue="应用程序.MenuDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +148,7 @@
       <workItem from="1667650378982" duration="30000" />
       <workItem from="1667651087847" duration="1443000" />
       <workItem from="1668003228312" duration="3101000" />
-      <workItem from="1668076858699" duration="1447000" />
+      <workItem from="1668076858699" duration="6813000" />
     </task>
     <task id="LOCAL-00001" summary="java课程贯穿任务到第四章">
       <created>1668078165465</created>
@@ -177,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668078165465</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="java课程贯穿任务到第四章">
+      <created>1668078441569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668078441569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

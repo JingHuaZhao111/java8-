@@ -52,4 +52,13 @@ public class LogRecService {
             }
             }
     }
+//    匹配日志信息输出
+    public void showMatchLog(MatchedLogRec... matchedLogRecs){
+        for (MatchedLogRec e :
+                matchedLogRecs) {
+            if (e != null) {
+                System.out.println(e.toString());
+            }
+            }
+    }
 }

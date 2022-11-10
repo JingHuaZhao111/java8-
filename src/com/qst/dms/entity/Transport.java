@@ -5,15 +5,7 @@ import java.util.Date;
 /**
  * created By Kiri on 2022/11/9
  */
-public class Transport {
-//    ID标识
-    private int id;
-//    时间
-    private Date time;
-//    地点
-    private String address;
-//    状态
-    private int type;
+public class Transport extends DataBase{
     /*
     * 经手人
     * */
@@ -25,7 +17,7 @@ public class Transport {
     /*
     * 物流状态
     * */
-    private  int transportTypr;
+    private  int transportType;
     /*
     * 物流状态常量:发货中,送货中,已签收
     * */
@@ -33,46 +25,6 @@ public class Transport {
     public static final int TRANSPORTING=2;
     public static final int RECIEVED=3;
 
-//    状态常量
-    public static final int GATHER=1;//采集
-    public static final int MATCH=2;//匹配
-    public static final int RECORD=3;//记录
-    public static final int SEND=4;//发送
-    public static final int RECEIVE=5;//接收
-    public static final int WRITE=6;//归档
-    public static final int SAVE=7;//保存
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public Date getTime() {
-        return time;
-    }
-
-    public void setTime(Date time) {
-        this.time = time;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public int getType() {
-        return type;
-    }
-
-    public void setType(int type) {
-        this.type = type;
-    }
 
     public String getHandler() {
         return handler;
@@ -90,35 +42,26 @@ public class Transport {
         this.reciver = reciver;
     }
 
-    public int getTransportTypr() {
-        return transportTypr;
+    public int getTransportType() {
+        return transportType;
     }
 
-    public void setTransportTypr(int transportTypr) {
-        this.transportTypr = transportTypr;
+    public void setTransportType(int transportType) {
+        this.transportType = transportType;
     }
 
     public Transport() {
     }
 
     public Transport(int id, Date time, String address, int type, String handler, String reciver, int transportTypr) {
-        this.id = id;
-        this.time = time;
-        this.address = address;
-        this.type = type;
+        super(id, time, address, type);
         this.handler = handler;
         this.reciver = reciver;
-        this.transportTypr = transportTypr;
+        this.transportType = transportTypr;
     }
 
     @Override
     public String toString() {
-        return
-                "id=" + id +
-                ", time=" + time +
-                ", address='" + address + '\'' +
-                ", type=" + type +
-                ", handler='" + handler + '\'' +
-                ", transportTypr=" + transportTypr ;
+        return this.getId()+","+this.getTime()+","+this.getAddress()+","+this.getType()+","+ transportType;
     }
 }
