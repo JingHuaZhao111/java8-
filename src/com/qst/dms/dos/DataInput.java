@@ -5,6 +5,7 @@ import java.util.Scanner;
 /**
  * created By Kiri on 2022/11/2
  */
+
 public class DataInput {
     public static void main(String[] args) {
 //        声明一个整数数组
